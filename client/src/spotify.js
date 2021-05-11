@@ -3,13 +3,13 @@ const http = require("https");
 
 const options = {
 	"method": "POST",
-	"hostname": "spotifystefan-skliarovv1.p.rapidapi.com",
+	"hostname": "https://api-spotifyplaylists.000webhostapp.com/",
 	"port": null,
 	"path": "/updatePlaylist",
 	"headers": {
 		"content-type": "application/x-www-form-urlencoded",
-		"x-rapidapi-key": "f2fc5816c1mshc62a479d6d00627p191eefjsnf8484db25ac1",
-		"x-rapidapi-host": "Spotifystefan-skliarovV1.p.rapidapi.com",
+		"api-key": "f2fc5816c1mshc62a479d6d00627p191eefjsnf8484db25ac1",
+		"host": "https://api-spotifyplaylists.000webhostapp.com/",
 		"useQueryString": true
 	}
 };
